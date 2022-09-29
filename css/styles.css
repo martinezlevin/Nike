@@ -11266,6 +11266,10 @@ textarea.form-control-lg {
   height: auto;
 }
 
+.card:hover {
+  box-shadow: 0px 0px 20px 0px #B5B2B2;
+}
+
 .foto:hover {
   transition: 0.5s;
   transform: scale(1.1);
