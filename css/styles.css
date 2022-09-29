@@ -2468,9 +2468,9 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-          /*print-color-adjust: 0;*/
+          /*print-color-adjust: 0;*//*
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+          color-adjust: exact;*/
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -11264,4 +11264,10 @@ textarea.form-control-lg {
 .logoNike {
   width: 70px;
   height: auto;
+}
+
+.foto:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  object-fit: cover;
 }
